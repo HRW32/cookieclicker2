@@ -78,7 +78,7 @@ upgrade200.onclick = () => {
 
 
 // {} - scope, roysah fce/definice fce
-function cheats () {
+/*function cheats () {
     numberOfCookies += 150
     counter.innerHTML = `Cookies: ${numberOfCookies}`;
 
@@ -95,9 +95,9 @@ superCheats();
 //na jeden řádek komentář
 /* na více řádků */
 // const - promena co se meni, let - promena co se muze zmenit
-const PI = 3.14;
+/*const PI = 3.14;
 let number = 0;
 console.log(number);
 number = 10;
 console.log(number);
-console.log(PI);
+console.log(PI);*/
