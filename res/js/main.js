@@ -62,7 +62,6 @@ upgrade150.onclick = () => {
     if (numberOfCookies >= 150){
         numberOfCookies -= 150;
         cookieIncrease +=2;
-        numberOfCookies += cookieIncrease+cookieIncrease;
         counter.innerHTML = `Cookies: ${numberOfCookies}`;
     }
 }
@@ -80,12 +79,12 @@ upgrade200.onclick = () => {
 
 // {} - scope, roysah fce/definice fce
 function cheats () {
-    numberOfCookies += 1000
+    numberOfCookies += 150
     counter.innerHTML = `Cookies: ${numberOfCookies}`;
 
 }
 const superCheats = () => {
-    numberOfCookies += 1000000
+    numberOfCookies += 150
     counter.innerHTML = `Cookies: ${numberOfCookies}`;
 }
 cheats();
