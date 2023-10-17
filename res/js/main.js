@@ -12,7 +12,7 @@ let numberOfCookies = 0;
 let cookieIncrease = 1;
 let autoclickerIncrease = 0;
 let autoclicker;
-let upgradeclickCost = 70;
+let upgradeclickCost = 120;
 let upgradeclick2Cost = 200;
 let upgrade150Cost = 150;
 let upgrade200Cost = 200;
@@ -47,10 +47,10 @@ cookie.onclick = () => {
 }
 upgradeclick.onclick = () => {
     //Pokud mame susenek vic nebo rovno 50
-    if (numberOfCookies >= 70){
+    if (numberOfCookies >= 120){
         //odecist 50
         //numberOfCookies = numberOfCookies - 50
-        numberOfCookies -= 70;
+        numberOfCookies -= 120;
         //zobrazit susenky
        
         //zvednoutklikani

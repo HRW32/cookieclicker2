@@ -16,15 +16,18 @@ body{
    font-size: 30px;
     text-align: center;
     color: rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
-    background-color: aqua;
+    background: none;
     
 }
 button{
     border-radius: 5px;
     width: 250px;
+    height: 200px;         
+               
 }
+
 /*#upgradeclick { font-size: 30px;
 }
 #upgrade150 { font-size: 30px;
@@ -34,8 +37,7 @@ button{
 #buy{ font-size: 30px;}
 */
 .container{
-    
-    height: 420px;
+    display: flex;
 }
 
 .prava{
@@ -44,15 +46,37 @@ button{
     top: 100px;
     right: 0;
     position: absolute;
+    
+}
+.leva img {
+    height: 300px;
+    width: 300px;
 }
 .leva{
-    width: 300px;
+    width: 500px;
     height: 500px;
     top: 200px;
-    left: 500px;
+    left: 400px;
     position: absolute;
 }
 button img {
     height: 100px;
     width: 130px;
+}
+/*.container,
+.leva,
+.prava {
+    display: flex;
+    
+}
+@media screen and (max-width: 1200px) {
+    .prava, .leva {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
 }
